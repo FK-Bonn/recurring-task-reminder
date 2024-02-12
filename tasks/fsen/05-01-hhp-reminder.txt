@@ -1,0 +1,14 @@
+Das Haushaltsjahr mancher Fachschaften endet bald
+
+Griaß di FSK,
+
+erinnere Fachschaften, deren Haushaltsjahr am 30. Juni endet, 
+bitte daran, dass sie bis dahin einen neuen Haushaltsplan 
+beschlossen haben sollten.
+
+Mit mass-mail geht das halbwegs praktisch
+> https://github.com/FK-Bonn/mass-mail
+
+--
+Diese E-Mail wurde durch den Recurring Task Reminder versendet
+https://github.com/FK-Bonn/recurring-task-reminder

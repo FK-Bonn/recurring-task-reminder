@@ -1,0 +1,14 @@
+Die Antragsfrist für das letzte Wintersemester endet bald
+
+Griaß di FSK,
+
+erinnere Fachschaften, die noch keinen AFSG-Antrag für das 
+letzte Wintersemester gestellt haben, bitte daran, dass die 
+Antragsfrist hierfür am 31. März abläuft.
+
+Mit mass-mail geht das halbwegs praktisch
+> https://github.com/FK-Bonn/mass-mail
+
+--
+Diese E-Mail wurde durch den Recurring Task Reminder versendet
+https://github.com/FK-Bonn/recurring-task-reminder

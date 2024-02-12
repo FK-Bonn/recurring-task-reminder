@@ -1,0 +1,10 @@
+{
+    "host": "mail.example.org",
+    "user": "user@example.org",
+    "pass": "password",
+    "name_from": "🤖 Recurring Task Reminder",
+    "mail_from": "user@example.org",
+    "recipients": {
+        "fsen": "fsen@example.org"
+    }
+}

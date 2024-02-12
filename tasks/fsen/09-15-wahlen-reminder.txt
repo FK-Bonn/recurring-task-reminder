@@ -1,0 +1,18 @@
+Fachschaftswahlen-Reminder
+
+Griaß di FSK,
+
+schreib mal alle Fachschaften an, die im kommenden Wintersemester 
+wieder wählen müssen und sag ihnen:
+
+- dass sie im kommenden Wintersemester wieder wählen müssen
+- wo sie die gängigen Rechtsnormen finden
+- dass sie das Wahlen-Tool benutzen sollen
+  (https://fk-bonn.github.io/fswahl/)
+
+Mit mass-mail geht das halbwegs praktisch
+> https://github.com/FK-Bonn/mass-mail
+
+--
+Diese E-Mail wurde durch den Recurring Task Reminder versendet
+https://github.com/FK-Bonn/recurring-task-reminder

@@ -1,0 +1,12 @@
+Studierendenzahlen für AFSG-Aufteilung anfragen
+
+Griaß di FSK,
+
+frag mal die Univerwaltung nach den Studierendenzahlen 
+je Fachschaft für dieses Semester.
+
+Damit aktualisierst du dann die Tabelle im Sciebo-Ordner.
+
+--
+Diese E-Mail wurde durch den Recurring Task Reminder versendet
+https://github.com/FK-Bonn/recurring-task-reminder

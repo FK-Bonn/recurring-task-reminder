@@ -1,0 +1,14 @@
+Die Antragsfrist für das letzte Sommersemester endet bald
+
+Griaß di FSK,
+
+erinnere Fachschaften, die noch keinen AFSG-Antrag für das 
+letzte Sommersemester gestellt haben, bitte daran, dass die 
+Antragsfrist hierfür am 30. September abläuft.
+
+Mit mass-mail geht das halbwegs praktisch
+> https://github.com/FK-Bonn/mass-mail
+
+--
+Diese E-Mail wurde durch den Recurring Task Reminder versendet
+https://github.com/FK-Bonn/recurring-task-reminder

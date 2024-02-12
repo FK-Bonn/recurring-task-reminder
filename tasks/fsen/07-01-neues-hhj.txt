@@ -1,0 +1,16 @@
+Für manche Fachschaften beginnt heute ein neues Haushaltsjahr
+
+Griaß di FSK,
+
+erinnere Fachschaften, deren Haushaltsjahr am 1. Juli begonnen hat, 
+bitte an folgendes:
+- neuen HHP einreichen
+- HHR für das letzte Haushaltsjahr erstellen und einreichen
+- ggf. die Kassenprüfung gleich mit einreichen
+
+Mit mass-mail geht das halbwegs praktisch
+> https://github.com/FK-Bonn/mass-mail
+
+--
+Diese E-Mail wurde durch den Recurring Task Reminder versendet
+https://github.com/FK-Bonn/recurring-task-reminder
