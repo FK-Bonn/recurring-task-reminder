@@ -1,0 +1,17 @@
+Die Fachschaften sollen erinnert werden, ihre Stammdaten zu überprüfen
+
+Griaß di FSK,
+
+erinnere die Fachschaften mal daran, dass sie ihre Stammdaten in der
+Datendrehscheibe überprüfen.
+
+Das musst du machen, weil es in § 33 Absatz 4 der FKGO [1] so steht.
+
+Mit mass-mail geht das halbwegs praktisch
+> https://github.com/FK-Bonn/mass-mail
+
+[1] https://sp.uni-bonn.de/dokumente/idx/Ordnungen/FKGO.html#%C2%A733-4
+
+--
+Diese E-Mail wurde durch den Recurring Task Reminder versendet
+https://github.com/FK-Bonn/recurring-task-reminder
