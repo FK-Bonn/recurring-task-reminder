@@ -1,7 +1,8 @@
 #! /usr/bin/env python3
 import email
 import json
-from datetime import date
+import urllib.request
+from datetime import date, timedelta
 from email.message import EmailMessage
 from pathlib import Path
 from smtplib import SMTP
@@ -46,6 +47,34 @@ def send_mail(mailer: Mailer, recipient_email: str, task: Path):
     mailer.send_email(to=recipient_email, subject=subject, body=body)
 
 
+def send_electoral_register_mails(mailer: Mailer, recipient_email: str, today: date):
+    response = urllib.request.urlopen('https://fsen.datendrehschei.be/api/v1/elections/', timeout=30)
+    data = response.read().decode('utf-8')
+    elections = json.loads(data)
+    today_str = today.isoformat()
+    for election in elections:
+        try:
+            first_day = date.fromisoformat(election['first_election_day'])
+            cutoff_date = (first_day - timedelta(days=30)).isoformat()
+            if today_str == cutoff_date:
+                fs = election['fs']
+                subject = f'Wählendenverzeichnis: {cutoff_date} | {fs}'
+                body = f'''Hallo,
+
+bitte **HEUTE** ({cutoff_date}) einmal das Wählendenverzeichnis
+für die FS {fs} erstellen.
+
+Die wählen nämlich am {first_day}.
+
+Danki!
+
+GaLieGrü
+'''
+                mailer.send_email(to=recipient_email, subject=subject, body=body)
+        except ValueError:
+            pass
+
+
 def main():
     today = date.today()
     task_prefix = today.strftime('%m-%d-')
@@ -55,6 +84,8 @@ def main():
         recipient_email = config['recipients'][recipient_dir.name]
         for task in sorted(recipient_dir.glob(f'{task_prefix}*')):
             send_mail(mailer, recipient_email, task)
+        if recipient_dir.name == 'fsen':
+            send_electoral_register_mails(mailer, recipient_email, today)
     mailer.close()
 
 
