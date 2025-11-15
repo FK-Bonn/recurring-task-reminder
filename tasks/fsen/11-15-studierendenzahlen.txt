@@ -1,9 +1,8 @@
-Studierendenzahlen für AFSG-Aufteilung anfragen
+Studierendenzahlen für AFSG-Aufteilung exportieren
 
 Griaß di FSK,
 
-frag mal die Univerwaltung nach den Studierendenzahlen 
-je Fachschaft für dieses Semester.
+exportier *HEUTE* in CRM mal die aktuellen anteiligen Studierendenzahlen.
 
 Damit aktualisierst du dann die Tabelle im Sciebo-Ordner.
 
